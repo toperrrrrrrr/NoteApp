@@ -1,0 +1,17 @@
+<%- include('./partials/head.ejs') %>
+
+    <body>
+        <div class="my-3 mx-3 self-align-center">
+            <form action="/notes/" method="post">
+                <label for="notes">Notes</label>
+                <input type="text" name="noteTitle">
+                <input type="text" name="noteBody">
+                <button type="submit">Save</button>
+            </form>
+            
+        </div>
+
+        <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+    </html>
